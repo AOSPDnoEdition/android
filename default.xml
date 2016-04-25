@@ -4,7 +4,6 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
-           revision="refs/tags/master" />
 
   <remote  name="github"
            fetch=".."
