@@ -10,7 +10,7 @@
            revision="refs/heads/cm-13.0" />
 	
   <remote  name="github"
-           fetch="https://github.com"
+           fetch="https://github.com/CyanogenMod"
            revision="refs/heads/cm-13.0" />
 
   <default revision="refs/heads/cm-13.0"
