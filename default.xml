@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<remote  name="aosp"
+  <remote  name="aosp"
            fetch="https://android.googlesource.com"
-           review="https://android-review.googlesource.com/" />
-	
-  <default revision="master"
-           remote="aosp"
-           sync-c="true"
-           sync-j="4" />
+           review="android-review.googlesource.com"
+           revision="refs/heads/master" />
 
   <remote  name="github"
            fetch="https://github.com"
