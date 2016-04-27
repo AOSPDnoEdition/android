@@ -10,7 +10,7 @@
            fetch="https://github.com"
            revision="refs/heads/cm-13.0" />
 
-   <remote  name="viper"
+   <remote  name="zf2"
            fetch="https://github.com/AOSP-Zenfone2"
            revision="refs/heads/mm6.0" />
  
