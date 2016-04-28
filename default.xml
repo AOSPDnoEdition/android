@@ -4,26 +4,21 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
-           revision="refs/heads/master" />
+           revision="refs/tags/android-6.0.1_r30" />
 
   <remote  name="github"
-           fetch="https://github.com"
-           revision="refs/heads/cm-13.0" />
+           fetch=".."
+           review="review.cyanogenmod.org" />
 
-   <remote  name="viper"
-           fetch="https://github.com/AOSP-Zenfone2"
-           revision="refs/heads/mm6.0" />
- 
-    <remote  name="dno"
-           fetch="https://github.com/AOSPDnoEdition"
-           revision="refs/heads/mm6.0" />
-  
+  <remote  name="private"
+           fetch="ssh://git@github.com" />
+
   <default revision="refs/heads/cm-13.0"
            remote="github"
            sync-c="true"
            sync-j="4" />
 
-<!-- BEGIN CYANOGENMOD -->
+<!-- BEGIN CYANOGENM0D -->
   <project path="build" name="CyanogenMod/android_build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -190,7 +185,7 @@
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" />
   <project path="libcore" name="CyanogenMod/android_libcore" groups="pdk" />
   <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" groups="pdk" />
-  <project path="packages/apps/ViPER4Android" name="viper4android_fx" remote="dno" />
+  <project path="packages/apps/ViPER4Android" name="AOSPDnoEdition/viper4android_fx" />
   <project path="packages/apps/BasicSmsReceiver" name="CyanogenMod/android_packages_apps_BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/BluetoothExt" name="CyanogenMod/android_packages_apps_BluetoothExt" />
