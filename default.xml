@@ -14,10 +14,6 @@
            remote="github"
            sync-c="true"
            sync-j="4" />
-
-   <remote  name="zf2"
-           fetch="https://github.com/AOSP-Zenfone2"
-           revision="refs/heads/mm6.0" />
  
     <remote  name="dno"
            fetch="https://github.com/AOSPDnoEdition"
