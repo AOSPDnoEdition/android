@@ -519,7 +519,7 @@
 <!-- END AOSP -->
   <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" groups="pdk" />
   <project path="packages/apps/ViperFX" name="AOSPDnoEdition/viper4android_fx" />
-  <project path="vendor/asus" name="AOSPDnoEdition/proprietary_vendor_asus" />
+  <project path="vendor/asus" name="TheMuppets/proprietary_vendor_asus" />
   <project path="device/asus/msm8916-common" name="AOSPDnoEdition/android_device_asus_msm8916-common" />
   <project path="device/asus/Z00T" name="AOSPDnoEdition/android_device_asus_Z00T" />
   <project path="kernel/asus/msm8916" name="CyanogenMod/android_kernel_asus_msm8916" />
