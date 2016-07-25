@@ -526,4 +526,5 @@
   <project path="external/stlport" name="CyanogenMod/android_external_stlport" groups="pdk" />
   <project path="external/sony/boringssl-compat" name="CyanogenMod/android_external_sony_boringssl-compat" groups="pdk" />
 <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" groups="pdk" />
+<project path="libnativehelper" name="CyanogenMod/android_libnativehelper" groups="pdk" />
 </manifest>
